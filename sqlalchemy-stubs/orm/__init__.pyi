@@ -1,4 +1,6 @@
 from typing import Any, Optional
+from ..sql.schema import Column as _Column
+Mapped = _Column
 from .mapper import (
     Mapper as Mapper,
     class_mapper as class_mapper,
